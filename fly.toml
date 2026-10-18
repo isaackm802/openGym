@@ -12,9 +12,9 @@ kill_timeout = 10
   RP_ID = "opengym-isaackm.fly.dev"
   ORIGIN = "https://opengym-isaackm.fly.dev"
   RP_NAME = "openGym"
-  # First profile registered becomes admin. After registering, set INVITE_ONLY = "1".
+  # Owner registered 2026-10-18. New profiles need an invite code from the admin dashboard.
   FIRST_USER_ADMIN = "1"
-  INVITE_ONLY = "0"
+  INVITE_ONLY = "1"
   ALLOW_GUEST = "0"
   # nginx overwrites X-Forwarded-For with Fly's client IP header, so the API can trust it.
   TRUST_PROXY = "1"
